@@ -9,7 +9,6 @@ body{
     margin:30px 0px 0px 0px;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
 }
 section{
     display: flex;
@@ -87,9 +86,9 @@ section{
 /* Media Query */
 
 @media only screen and (max-width:688px) {
-    body{
-        overflow-x:hidden;
-    }
+    section{
+        overflow-x: hidden;
+     }
     .header-container{
         flex-direction: column;
         width:334px;
@@ -147,9 +146,9 @@ section{
 }
 
 @media only screen and (min-width:689px) and (max-width:992px) {
-    body{
-        overflow-x:hidden;
-    }
+    section{
+        overflow-x: hidden;
+     }
     .header-container{
         width:734px;
         height:398px;
