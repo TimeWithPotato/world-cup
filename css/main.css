@@ -125,6 +125,7 @@
         width:210px;
         height: 176px;
         background-color: white;
+        margin-left: 40px;
     }
     .nav-box nav>p{
         height: 48px;
