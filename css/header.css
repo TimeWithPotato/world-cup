@@ -14,8 +14,6 @@ body{
 section{
     display: flex;
     justify-content: center;
-    overflow-x: hidden;
-
 }
 
 .header-container{
