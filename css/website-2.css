@@ -56,6 +56,9 @@
 
 /* Media Query */
 @media only screen and (max-width:688px){
+    body{
+        overflow-x:hidden;
+    }
     .nav-box nav p:first-child{
         border: 0;
     }
