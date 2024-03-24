@@ -85,9 +85,6 @@ section{
 /* Media Query */
 
 @media only screen and (max-width:688px) {
-    section{
-        overflow-x: hidden;
-     }
     .header-container{
         flex-direction: column;
         width:334px;
@@ -145,9 +142,6 @@ section{
 }
 
 @media only screen and (min-width:689px) and (max-width:992px) {
-    section{
-        overflow-x: hidden;
-     }
     .header-container{
         width:734px;
         height:398px;
