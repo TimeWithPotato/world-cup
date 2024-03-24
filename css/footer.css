@@ -1,0 +1,94 @@
+@import url(main.css);
+@import url(header.css);
+
+/* --------------Footer----------------------- */
+
+.footer-container{
+    background-color: #161616;
+    height: 444px;
+    width: auto;
+    margin:110px 0px 0px 0px;
+}
+
+.goal p{
+    margin-top: 3.3em;
+    color:white;
+    font-weight: 600;
+    font-size:40px;
+}
+.footer-container hr{
+    color:#FFFFFF;
+    opacity: 10%;
+    width: 1320px;
+}
+
+.Extras-container{
+    margin-top: 50px;
+    margin-bottom:80px;
+    display: flex;
+}
+
+.footer-link-container{
+    display: inline;
+}
+.footer-link-container p{
+    display: inline;
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size:16px;
+    margin-right: 10px;
+    margin-left:10px;
+    
+}
+
+.social-media{
+    margin-top: 10px;
+}
+.social-media div{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.social-media div i{
+    color:white;
+}
+
+/* Media Query */
+@media only screen and (max-width:688px){
+    .footer-container{
+        height: auto;
+    }
+    .extras-container{
+        flex-direction: column;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-link-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .Extras-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Extras-container div:nth-child(2){
+        margin-left: 169px;
+    }
+    .social-media{
+        margin-top: -50px;
+    }
+    
+}
